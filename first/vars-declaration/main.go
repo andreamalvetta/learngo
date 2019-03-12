@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+// You can't use short declaration at package level
+var safe = true
+
 func main() {
 
 	// var name = "Carl"
