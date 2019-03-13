@@ -18,4 +18,14 @@ func main() {
 
 	nFiles, valid, msg := 10, true, "hello"
 	fmt.Println(nFiles, valid, msg)
+
+	// --- TIPS ---
+	// If you know the value of variable use the short declaration
+	// var width, height = 100, 50 // DON'T!
+	width, height := 100, 50
+
+	fmt.Println(width, height)
+
+	// --- TIPS ---
+	// Use short declaration to keep you code concise
 }
